@@ -23,6 +23,6 @@ let products = [
   }
   
   products.forEach(displayCandy); 
-
+ 
 
     // Do we carry "Swedish Fish"?
