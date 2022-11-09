@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="toGoogle()" >Google</button>
+        <button onclick="toW3Schools()">W3Schools</button>
+        <button onclick="toMemes1()" href="index.html">Danger</button>
+        <button onclick="toMemes2()">Again?</button>
+    </div>
+    <script>
+        // google button
+        function toGoogle()
+        {
+            window.open("https://www.google.com");
+        }
+
+        // w3schools button
+        function toW3Schools()
+        {
+            window.open("https://www.w3schools.com");
+        }
+
+        // memes button1 
+        function toMemes1() 
+        {
+            window.open("images.html")
+        }
+
+        // memes button2 
+        function toMemes2()
+        {
+            let newWindow = window.open("images.html", "_self");
+        }
+        
+
+
+    </script>
+</body>
+</html>
