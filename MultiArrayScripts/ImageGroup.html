@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ImageGroup.css">
+</head>
+<body>
+    <div class="imageGroup">
+        <img src="/images/something.png" alt="something">
+        <p>Describe iamge above</p>
+    </div>
+    <div class="imageGroup">
+        <img src="/images/something.png" alt="something">
+        <p>Describe iamge above</p>
+    </div>
+    <div class="imageGroup">
+        <img src="/images/something.png" alt="something">
+        <p>Describe iamge above</p>
+    </div>
+    <div class="imageGroup">
+        <img src="/images/something.png" alt="something">
+        <p>Describe iamge above</p>
+    </div>
+</body>
+<script>
+    window.onload = function()
+    {
+        let img = document.getElementsByClassName("imageGroup");
+        let imglength = img.length;
+        for(let i = 0; i < imglength; i++)
+        {
+            img[i].style.border = "thick solid red";
+        }
+    }
+</script>
+</html>
